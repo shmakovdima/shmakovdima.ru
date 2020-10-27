@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hey! My name is Dmitrii. Awesome to see you here.',
+  paragraphTwo: 'I have visited over 25 countries and am not going to stop.',
+  paragraphThree: 'Now I work as a web software engineer at the company Revolut. I also organize meetups and developer conferences. I am interested in the web, machine learning, finance & investment and project management. My hobbies are photography, traveling, history, astronomy, running and other sports. And I completely forgot to mention about playing the ukulele.',
   resume: 'resume_old.pdf', // if no resume, the button will not show up
 };
 
@@ -28,20 +28,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'revolut.png',
     title: 'Revolut | Website',
-    info: '',
-    info2: '',
+    info: 'The main website of Revolut. Contains more than 50 thousand pages.',
+    info2: 'This project uses React, Gatsby, Redux, TypeScript, styled-components, cypress, react-testing-library and own ui-kit.',
     url: 'https://revolut.com',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    img: 'moscowjs.png',
+    title: 'MoscowJS Meetup',
+    info: 'Regular meetings of JavaScript developers in Moscow. Discussing frameworks, tools and processes. We share knowledge and personal experience in an informal setting.',
+    info2: 'More than 48 meetups have already been held.',
+    url: 'https://moscowjs.org',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -64,17 +64,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'instagram',
-      url: 'www.instagram.com/shmakovdima',
+      url: 'https://www.instagram.com/shmakovdima',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'shmakovdima',
+      url: 'https://linkedin.com/in/shmakovdima',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'shmakovdima',
+      url: 'https://github.com/shmakovdima',
     },
   ],
 };

@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Hey! My name is Dmitrii. Awesome to see you here.',
   paragraphTwo: 'I have visited over 25 countries and am not going to stop.',
   paragraphThree: 'Now I work as a web software engineer at the company Revolut. I also organize meetups and developer conferences. I am interested in the web, machine learning, finances & investments and project management. My hobbies are photography, traveling, history, astronomy, running and other sports. And I completely forgot to mention about playing the ukulele.',
-  resume: 'resume_old.pdf', // if no resume, the button will not show up
+  resume: 'resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
